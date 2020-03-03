@@ -6,4 +6,4 @@ installation :
 cd doptile
 ./install
 
-enjoy ! 
+enjoy !
