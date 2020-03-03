@@ -6,7 +6,6 @@ kdeconnect-indicator &
 albert &
 devmon &
 blueman-applet &
-#xfce4-terminal -e $(mpv start/DOOM\ -\ Main\ Menu) &
 #startxfce4
 {
 	./start/polybar &
