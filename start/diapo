@@ -2,16 +2,16 @@
 
 while [ '1' -eq '1' ];
 do
-	echo $(feh --bg-scale Wallpaper/doom.jpg)
+	echo $(feh --bg-scale ~/start/Wallpaper/doom.jpg)
 	sleep '300'
-	echo $(feh --bg-scale Wallpaper/Battlefront_II.jpg)
+	echo $(feh --bg-scale ~/start/Wallpaper/Battlefront_II.jpg)
 	sleep '300'
-	echo $(feh --bg-scale Wallpaper/minato.jpg)
+	echo $(feh --bg-scale ~/start/Wallpaper/minato.jpg)
 	sleep '300'
-	echo $(feh --bg-scale Wallpaper/red.png)
+	echo $(feh --bg-scale ~/start/Wallpaper/red.png)
 	sleep '300'
-	echo $(feh --bg-scale Wallpaper/2020-NOVITEC-Lamborghini-Aventador-SVJ.jpg)
+	echo $(feh --bg-scale ~/start/Wallpaper/2020-NOVITEC-Lamborghini-Aventador-SVJ.jpg)
 	sleep '300'
-	echo $(feh --bg-scale Wallpaper/joker.jpg)
+	echo $(feh --bg-scale ~/start/Wallpaper/joker.jpg)
 	sleep '300'
 done
