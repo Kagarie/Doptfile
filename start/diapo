@@ -14,4 +14,7 @@ do
 	sleep '300'
 	echo $(feh --bg-scale ~/start/Wallpaper/joker.jpg)
 	sleep '300'
+	echo $(feh --bg-scale ~/start/Wallpaper/alone.jpg)
+	sleep '300'
 done
+
