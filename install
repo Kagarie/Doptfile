@@ -7,6 +7,6 @@ echo "config polybar"
 cp polybar-config ~/.config/polybar/config
 echo "dossier start"
 cp -r start/ ~/
-echo"xinitrc"
+echo "xinitrc"
 cp xinitrc ~/.xinitrc
 echo "END"
