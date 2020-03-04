@@ -7,9 +7,9 @@ have beforehand :
 
 installation : 
 
-``bash
+```bash
 cd doptile
 ./install
-``
+```
 
 enjoy !
