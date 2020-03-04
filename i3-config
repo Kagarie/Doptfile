@@ -197,6 +197,6 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 
 
-bindsym XF86AudioPlay exec ./start/playPause
-bindsym XF86AudioPrev exec ./start/precedent
-bindsym XF86AudioNext exec ./start/next
+bindsym XF86AudioPlay exec ./start/commandeMusique/playPause
+bindsym XF86AudioPrev exec ./start/commandeMusique/precedent
+bindsym XF86AudioNext exec ./start/commandeMusique/next
