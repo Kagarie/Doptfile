@@ -7,6 +7,7 @@ have beforehand :
 
 installation : 
 > cd doptile
+
 > ./install
 
 enjoy !
