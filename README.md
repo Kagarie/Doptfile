@@ -7,8 +7,8 @@ have beforehand :
 
 installation : 
 
-``
-cd doptile\n
+``sh
+cd doptile
 ./install
 ``
 
