@@ -15,6 +15,7 @@ installation :
 git clone https://github.com/Kagarie/Dotfiles.git
 cd doptile
 ./install
+reboot
 ```
 
 enjoy !
