@@ -12,7 +12,7 @@ blueman-applet &
 	./start/diapo &
 	compton &
 	numlockx on &
-	firefox https://discordapp.com/activity &
+	#kdeconnect-sms &
 	gitkraken &
 	i3
 	
