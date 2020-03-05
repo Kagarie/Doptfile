@@ -12,6 +12,7 @@ sudo pacman -Syu mpd kdeconnect albert devmon blueman compton numlockx firefox i
 installation : 
 
 ```bash
+git clone https://github.com/Kagarie/Dotfiles.git
 cd doptile
 ./install
 ```
