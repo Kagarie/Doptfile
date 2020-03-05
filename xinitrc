@@ -13,6 +13,7 @@ blueman-applet &
 	compton &
 	numlockx on &
 	firefox https://discordapp.com/activity &
+	gitkraken &
 	i3
 	
 }
