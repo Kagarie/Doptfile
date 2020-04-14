@@ -13,7 +13,7 @@ blueman-applet &
 	compton &
 	numlockx on &
 	#kdeconnect-sms &
-	gitkraken &
+	#gitkraken &
 	i3
 	
 }
