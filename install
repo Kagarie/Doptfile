@@ -9,4 +9,15 @@ echo "dossier start"
 cp -r start/ ~/
 echo "xinitrc"
 cp xinitrc ~/.xinitrc
+
+if [  -s ~/start/pacwall/ ]
+then	
+	echo "pacwall already present"
+else 
+	echo "Download pacwall"
+	cd ~/start/
+	git clone https://github.com/Kharacternyk/pacwall.git
+fi
+
 echo "END"
+

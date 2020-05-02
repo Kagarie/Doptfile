@@ -1,7 +1,8 @@
 #!/bin/bash
-
 while [ '1' -eq '1' ];
 do
+	./start/pacwall/pacwall.sh
+	sleep '300'
 	echo $(feh --bg-scale ~/start/Wallpaper/doom.jpg)
 	sleep '300'
 	echo $(feh --bg-scale ~/start/Wallpaper/Battlefront_II.jpg)
