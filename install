@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#presence test
+./present
+
+echo " "
 echo "start of configuration"
 echo "config i3"
 cp i3-config ~/.config/i3/config
@@ -10,7 +14,9 @@ cp -r start/ ~/
 echo "xinitrc"
 cp xinitrc ~/.xinitrc
 
-if [  -s ~/start/pacwall/ ]
+echo " " 
+echo "pacwall :"
+if [  -d "~/start/pacwall/" ]
 then	
 	echo "pacwall already present"
 else 

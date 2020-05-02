@@ -1,0 +1,75 @@
+#!/bin/bash
+#presence test
+
+if  pacman -Qs kdeconnect > /dev/null
+then
+	echo "kdeconnect present"
+else 
+	echo "install kdeconnect"
+	pacman -S kdeconnect
+fi
+
+if  pacman -Qs mpd > /dev/null
+then
+	echo "mpd present"
+else 
+	echo "install mpd"
+	pacman -S mpd
+fi
+
+if  pacman -Qs albert > /dev/null
+then
+	echo "albert present"
+else 
+	echo "install albert"
+	pacman -S albert
+fi
+
+if  pacman -Qs devmon > /dev/null
+then
+	echo "devmon present"
+else 
+	echo "install devmon"
+	pacman -S devmon
+fi
+
+if  pacman -Qs blueman > /dev/null
+then
+	echo "blueman present"
+else 
+	echo "install blueman"
+	pacman -S blueman
+fi
+
+if  pacman -Qs compton > /dev/null
+then
+	echo "compton present"
+else 
+	echo "install compton"
+	pacman -S compton
+fi
+
+if  pacman -Qs numlockx > /dev/null
+then
+	echo "numlockx present"
+else 
+	echo "install numlockx"
+	pacman -S numlockx
+fi
+
+if  pacman -Qs firefox > /dev/null
+then
+	echo "firefox present"
+else 
+	echo "install firefox"
+	pacman -S firefox
+fi
+
+if  pacman -Qs i3 > /dev/null
+then
+	echo "i3 present"
+else 
+	echo "install i3"
+	pacman -S i3
+fi
+
