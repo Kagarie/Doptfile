@@ -14,16 +14,8 @@ cp -r start/ ~/
 echo "xinitrc"
 cp xinitrc ~/.xinitrc
 
-echo " " 
-echo "pacwall :"
-if [  -d "~/start/pacwall/" ]
-then	
-	echo "pacwall already present"
-else 
-	echo "Download pacwall"
-	cd ~/start/
-	git clone https://github.com/Kharacternyk/pacwall.git
-fi
+#install pacwall
+./pacwall
 
 echo "END"
 

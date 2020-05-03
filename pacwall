@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [  -d "~/start/pacwall/" ];then
+	echo "pacwall already present"
+else
+	echo "Download pacwall"
+	cd ~/start/
+	git clone https://github.com/Kharacternyk/pacwall.git
+fi
