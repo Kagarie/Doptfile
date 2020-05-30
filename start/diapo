@@ -1,13 +1,15 @@
 #!/bin/bash
 while [ '1' -eq '1' ];
 do
-	./start/pacwall/pacwall.sh
+	echo $(feh --bg-scale ~/start/Wallpaper/The\ Hallowen\ -\ Zombie\ Girl.png)
 	sleep '300'
 	echo $(feh --bg-scale ~/start/Wallpaper/doom.jpg)
 	sleep '300'
+	./start/pacwall/pacwall.sh
+	sleep '300'
 	echo $(feh --bg-scale ~/start/Wallpaper/Battlefront_II.jpg)
 	sleep '300'
-	echo $(feh --bg-scale ~/start/Wallpaper/minato.jpg)
+	echo $(feh --bg-scale ~/start/Wallpaper/Judas_Priest.png)
 	sleep '300'
 	echo $(feh --bg-scale ~/start/Wallpaper/red.png)
 	sleep '300'
