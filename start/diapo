@@ -3,6 +3,8 @@ while [ '1' -eq '1' ];
 do
 	echo $(feh --bg-scale ~/start/Wallpaper/The\ Hallowen\ -\ Zombie\ Girl.png)
 	sleep '300'
+    echo $(feh --bg-sclae ~//start/Wallpaper/rick.jpg)
+    sleep '300'
 	echo $(feh --bg-scale ~/start/Wallpaper/doom.jpg)
 	sleep '300'
 	./start/pacwall/pacwall.sh
