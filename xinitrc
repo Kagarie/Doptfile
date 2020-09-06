@@ -9,7 +9,7 @@ blueman-applet &
 #startxfce4
 {
 	./start/polybar &
-	./start/diapo &
+	./start/checkEcran.sh &
 	compton &
 	numlockx on &
 	#kdeconnect-sms &

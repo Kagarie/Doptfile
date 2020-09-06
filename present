@@ -1,7 +1,7 @@
 #!/bin/bash
 #presence test
 
-testPackage=('kdeconnect' 'mpd' 'albert' 'devmon' 'blueman' 'compton' 'numlockx' 'firefox' 'i3')
+testPackage=('kdeconnect' 'mpd' 'albert' 'devmon' 'blueman' 'compton' 'numlockx' 'i3')
 noPresent=()
 
 for package in ${testPackage[*]}
