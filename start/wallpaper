@@ -1,0 +1,23 @@
+#!/bin/bash
+while [ '1' -eq '1' ];
+do
+	echo $(feh --bg-scale ~/start/Wallpaper/The\ Hallowen\ -\ Zombie\ Girl.png)
+	sleep '300'
+	echo $(feh --bg-scale ~/start/Wallpaper/rick.jpg)
+	sleep '300'
+	echo $(feh --bg-scale ~/start/Wallpaper/doom.jpg)
+	sleep '300'
+	echo $(feh --bg-scale ~/start/Wallpaper/Battlefront_II.jpg)
+	sleep '300'
+	echo $(feh --bg-scale ~/start/Wallpaper/Judas_Priest.png)
+	sleep '300'
+	echo $(feh --bg-scale ~/start/Wallpaper/red.png)
+	sleep '300'
+	echo $(feh --bg-scale ~/start/Wallpaper/2020-NOVITEC-Lamborghini-Aventador-SVJ.jpg)
+	sleep '300'
+	echo $(feh --bg-scale ~/start/Wallpaper/joker.jpg)
+	sleep '300'
+	echo $(feh --bg-scale ~/start/Wallpaper/alone.jpg)
+	sleep '300'
+done
+

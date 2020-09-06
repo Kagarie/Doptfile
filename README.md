@@ -3,13 +3,11 @@
 It's my main config files between my machines
 
 have beforehand :
-   - mpd kdeconnect albert devmon blueman compton numlockx firefox i3
+   - mpd kdeconnect albert devmon blueman compton numlockx i3
 
 ```bash
-sudo pacman -Syu mpd kdeconnect albert devmon blueman compton numlockx firefox i3
+sudo pacman -Syu mpd kdeconnect albert devmon blueman compton numlockx  i3
 ```
-
-installation : 
 
 ```bash
 git clone https://github.com/Kagarie/Dotfiles.git
