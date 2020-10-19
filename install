@@ -10,7 +10,7 @@ cp fichierConfig/i3-config ~/.config/i3/config
 echo "config polybar"
 cp fichierConfig/polybar-config ~/.config/polybar/config
 echo "dossier start"
-cp -r start/ ~/
+cp -r start/ ~/.start
 echo "xinitrc"
 cp fichierConfig/xinitrc ~/.xinitrc
 
