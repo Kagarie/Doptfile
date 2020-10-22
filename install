@@ -6,13 +6,13 @@
 echo " "
 echo "start of configuration"
 echo "config i3"
-cp fichierConfig/i3-config ~/.config/i3/config
+cp -r .i3/i3-config ~/.config/i3/config
 echo "config polybar"
-cp fichierConfig/polybar-config ~/.config/polybar/config
+cp -r .polybar/polybar-config ~/.config/polybar/config
 echo "dossier start"
 cp -r start/ ~/.start
 echo "xinitrc"
-cp fichierConfig/xinitrc ~/.xinitrc
+cp .xinitrc ~/.xinitrc
 
 echo "END"
 
