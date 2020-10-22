@@ -8,8 +8,8 @@ devmon &
 blueman-applet &
 #startxfce4
 {
-	./start/polybar &
-	./start/checkEcran.sh &
+	./.start/polybar &
+	./.start/checkEcran.sh &
 	compton &
 	numlockx on &
 	#kdeconnect-sms &
