@@ -10,7 +10,7 @@ blueman-applet &
 {
 	./.start/polybar &
 	./.start/checkEcran.sh &
-	compton &
+	xcompmgr&
 	numlockx on &
 	#kdeconnect-sms &
 	#gitkraken &
