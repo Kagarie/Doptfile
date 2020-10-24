@@ -13,6 +13,9 @@ echo "dossier start"
 cp -r start/ ~/.start
 echo "xinitrc"
 cp .xinitrc ~/.xinitrc
-
+echo "zshrc"
+cp .zshrc ~/.zshrc
+cp -r .oh-my-zsh/ ~/.oh-my-zsh
+cp -r .bash/ ~/.config/bash
 echo "END"
 
