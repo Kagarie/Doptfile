@@ -56,10 +56,10 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec xfce4-terminal -e zsh
 bindsym $mod+b exec brave
-bindsym $mod+g exec chromium
+#bindsym $mod+g exec chromium
 bindsym $mod+c exec code
+bindsym $mod+t exec thunar
 bindsym $mod+t exec typora
 bindsym $mod+o exec okular
 # kill focused window

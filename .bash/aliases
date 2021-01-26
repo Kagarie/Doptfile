@@ -1,6 +1,6 @@
 #alias
-#alias ls='ls --color=auto'
 alias mirrorUpdate='sudo reflector --latest 250 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
+alias ls='ls --color=auto'
 alias ll='ls -l'
 alias ls='lsd'
 alias tree='ls --tree'
@@ -8,18 +8,21 @@ alias musique='ncmpcpp'
 alias mp3='youtube-dl -x --audio-format mp3'
 alias df='df -h'
 alias top='htop'
-
+alias luminosite='/home/aymeric/code/bash/luminosite'
+alias v='vim .'
+alias i3lock='i3lock -c 000000'
 
 #web
 alias phpl='php -S localhost:8080'
-
+alias symfonyStart='/home/aymeric/code/bash/symfony.sh'
+alias note='/home/aymeric/code/bash/Note_Symfony/note.sh'
 #C
 alias cmake='cmake ../src/'
 
 #Nettoyer cache et log
 alias rmPCache='sudo rm -rf /var/cache/pacman/pkg/*'
+
 #ssh
 alias statussh="sudo systemctl status sshd"
 alias startssh="sudo systemctl start sshd"
 alias stopssh="sudo systemctl stop sshd"
-

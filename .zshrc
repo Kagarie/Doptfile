@@ -98,27 +98,5 @@ source $ZSH/oh-my-zsh.sh
 #
 
 #alias
-alias mirrorUpdate='sudo reflector --latest 250 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
-alias ls='ls --color=auto'
-alias ll='ls -l'
-alias ls='lsd'
-alias tree='ls --tree'
-alias musique='ncmpcpp'
-alias mp3='youtube-dl -x --audio-format mp3'
-alias df='df -h'
-alias top='htop'
-
-
-#web
-alias phpl='php -S localhost:8080'
-
-#C
-alias cmake='cmake ../src/'
-
-#Nettoyer cache et log
-alias rmPCache='sudo rm -rf /var/cache/pacman/pkg/*'
-#ssh
-alias statussh="sudo systemctl status sshd"
-alias startssh="sudo systemctl start sshd"
-alias stopssh="sudo systemctl stop sshd"
+source ~/.config/bash/aliases
 
