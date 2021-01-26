@@ -2,9 +2,11 @@
 
 #presence test
 ./present
+rouge='\e[0;31m'                                                                
+vert='\e[1;32m'                                                                 
+neutre='\e[0;m'        
 
-echo " "
-echo "start of configuration"
+echo -e "\n\n${vert}start of configuration\n${neutre}"
 echo "config i3"
 cp -r .i3/ ~/.config/
 echo "config polybar"
@@ -17,9 +19,10 @@ echo "zshrc"
 cp .zshrc ~/.zshrc
 cp -r .bash/ ~/.config/bash
 
-if [ $SHELL != "/usr/bin/zsh" ];then                                            
+if [ $SHELL != "/usr/bin/zsh" ];then 
+    echo -e "${rouge}change of interpreter required"
     chsh -s /usr/bin/zsh                                                             
 fi 
 
-echo "END"
+echo -e "${vert}END"
 

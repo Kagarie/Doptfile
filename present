@@ -1,22 +1,28 @@
 #!/bin/bash
 #presence test
 
+vert='\e[1;32m'
+rouge='\e[0;31m' 
+neutre='\e[0;m' 
+
 testPackage=('kdeconnect' 'mpd' 'albert' 'devmon' 'blueman' 'compton' 'numlockx' 'i3' 'oh-my-zsh-git')
 noPresent=()
+
+echo -e "${vert}Presence test\n"
 
 for package in ${testPackage[*]}
 do
 	if  pacman -Qs  $package > /dev/null
 	then
-		echo "$package present"
+		echo -e "${neutre}$package present"
 	else 
-		echo "$package not present"
+		echo -e"${rouge}$package not present"
 		noPresent=( "${noPresent[@]}" $package)
 	fi
 done
 
 if [ -z "$noPresent" ];then
-	echo "no download"
+	echo -e "\n${vert}no download"
 else
     sudo pacman -S ${noPresent[*]}
 fi
