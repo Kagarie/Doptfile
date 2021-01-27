@@ -2,7 +2,6 @@ acpi
 aircrack-ng
 albert
 an2linuxserver-git
-android-studio
 apache
 asciidoc
 autoconf
@@ -11,6 +10,7 @@ bash
 bash-completion
 binutils
 bison
+bleachbit
 blueman
 bluetoother
 bluez
@@ -160,7 +160,6 @@ python-pyinotify
 python-virtualenv
 python-virtualenvwrapper
 python37
-quadrapassel
 ranger
 rar
 reflector
@@ -209,7 +208,6 @@ valgrind
 vi
 vim
 visual-studio-code-bin
-vlc
 vmware-horizon-client
 which
 xarchiver

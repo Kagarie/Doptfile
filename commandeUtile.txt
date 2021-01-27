@@ -1,0 +1,5 @@
+Suppression des paquets inutiles (orphelins):
+pacman -Rns $(pacman -Qtdq)
+
+Liste des paquets installé
+pacman -Qqe 
